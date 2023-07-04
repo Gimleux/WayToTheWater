@@ -100,23 +100,3 @@ h2 {
         font-size: 2.55vw;
     }
 }
-
-.shareButton {
-    /*background-color: #f2f2f2;*/
-    border: none;
-    padding: 8px 16px;
-    font-size: 16px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.2s;
-    /*border: 0;*/
-    background: none;
-    position: absolute;
-    bottom: 0.2em;
-    right: 0.2em;
-}
-
-.shareButton:focus, .shareButton:hover {
-    outline: 3px dashed #6b1400;
-    transform: scale(1.08);
-}
