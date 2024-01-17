@@ -10,9 +10,9 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy" : "yarn build",
-    "add-domain": "mkdir build && echo dune.gimleux.de > build/CNAME",
-    "deploy": "npm run add-domain && gh-pages -d dist"
+    "predeploy" : "rm -rf dist/ && yarn build && yarn add-domain",
+    "add-domain": "echo dune.gimleux.de > dist/CNAME",
+    "deploy": "yarn predeploy && gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",

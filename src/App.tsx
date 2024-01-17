@@ -1,6 +1,6 @@
 import Countdown from 'react-countdown';
 
-const RELEASE_DATE_STRING = '2024-03-01T18:00:00.000+01:00';
+const RELEASE_DATE_STRING = '2024-03-14T18:00:00.000+01:00';
 const RELEASE_DATE = new Date(RELEASE_DATE_STRING);
 
 function App() {
