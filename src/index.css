@@ -1,102 +1,106 @@
 @font-face {
-    font-family: 'Dune_Rise';
-    src: url('assets/fonts/dune/Dune_Rise.woff2') format('woff2');
+	font-family: "Dune_Rise";
+	src: url("assets/fonts/dune/Dune_Rise.woff2") format("woff2");
 }
 
 html {
-    min-height: 100%;
+	min-height: 100%;
 }
 
 :root {
-    font-family: Dune_Rise, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
-    font-size: 62.5%;
+	font-family:
+		Dune_Rise, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+	font-size: 62.5%;
 
-    color: #6b1400;
-    background: #9e6200;
-    background: linear-gradient(to top left, rgba(64, 38, 13, 1) 0%, rgba(253, 187, 45, 1) 100%);
+	color: #6b1400;
+	background: #9e6200;
+	background: linear-gradient(
+		to top left,
+		rgba(64, 38, 13, 1) 0%,
+		rgba(253, 187, 45, 1) 100%
+	);
 
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
 }
 
 body {
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 #root {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    place-items: center;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	place-items: center;
 }
 
-
 h1 {
-    font-size: 12em;
-    line-height: 1.1;
-    margin: 0.55em 0;
+	font-size: 12em;
+	line-height: 1.1;
+	margin: 0.55em 0;
 }
 
 h2 {
-    font-size: 5.25em;
-    line-height: 1.1;
-    margin: 0.55em 0;
+	font-size: 5.25em;
+	line-height: 1.1;
+	margin: 0.55em 0;
 }
 
 .countdown {
-    font-size: 3em;
-    font-weight: 500;
-    color: rgba(255, 255, 255, 0.87);
+	font-size: 3em;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 0.87);
 }
 
 .hint {
-    bottom: 0;
-    font-size: 2em;
-    color: #888;
-    margin: 1.5em 0;
+	bottom: 0;
+	font-size: 2em;
+	color: #888;
+	margin: 1.5em 0;
 }
 
 @media only screen and (max-width: 400px) {
-    h1 {
-        font-size: 5em;
-    }
+	h1 {
+		font-size: 5em;
+	}
 
-    h2 {
-        font-size: 2.2em;
-    }
+	h2 {
+		font-size: 2.2em;
+	}
 
-    .countdown {
-        font-size: 1.25em;
-    }
+	.countdown {
+		font-size: 1.25em;
+	}
 
-    .hint {
-        font-size: 0.85em;
-    }
+	.hint {
+		font-size: 0.85em;
+	}
 }
 
 @media only screen and (min-width: 401px) and (max-width: 800px) {
-    h1 {
-        font-size: 15vw;
-    }
+	h1 {
+		font-size: 15vw;
+	}
 
-    h2 {
-        font-size: 6.6vw;
-    }
+	h2 {
+		font-size: 6.6vw;
+	}
 
-    .countdown {
-        font-size: 3.75vw;
-    }
+	.countdown {
+		font-size: 3.75vw;
+	}
 
-    .hint {
-        font-size: 2.55vw;
-    }
+	.hint {
+		font-size: 2.55vw;
+	}
 }
