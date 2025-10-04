@@ -1,6 +1,6 @@
 import Countdown from "react-countdown";
 
-const RELEASE_DATE_STRING = "2024-02-29T13:10:00.000+01:00";
+const RELEASE_DATE_STRING = "2026-12-17T13:10:00.000+01:00";
 const RELEASE_DATE = new Date(RELEASE_DATE_STRING);
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
 	return (
 		<>
 			<h1 className="logo">Dune</h1>
-			<h2>Part Two</h2>
+			<h2>Part Three</h2>
 			<div className="countdown">
 				<Countdown date={RELEASE_DATE} renderer={renderer} />
 			</div>
