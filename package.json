@@ -10,8 +10,7 @@
 		"build": "tsc && vite build",
 		"biome": "biome format . --write && biome lint .",
 		"preview": "vite preview",
-		"predeploy": "rm -rf dist/ && yarn build && yarn add-domain",
-		"add-domain": "echo dune.gimleux.de > dist/CNAME",
+		"predeploy": "rm -rf dist/ && yarn build",
     "pages": "gh-pages -d dist",
 		"deploy": "yarn predeploy && yarn pages"
 	},
