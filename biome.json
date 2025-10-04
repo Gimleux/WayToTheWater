@@ -6,6 +6,7 @@
 		"useIgnoreFile": false
 	},
 	"files": {
+		"includes": ["**/*", "!node_modules", "!dist"],
 		"ignoreUnknown": false
 	},
 	"formatter": {
